@@ -1,0 +1,17 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+#logo img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+#big-photo img {
+    max-width: 100%;
+}
+
+#projects img {
+    max-width: 350px;
+    max-height: 240px;
+}
