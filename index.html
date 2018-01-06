@@ -6,9 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Serene's Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -16,10 +17,10 @@
         
         <div class="row">
             <header>
-                <div class="col-xs-3" id="logo">
+                <div class="col-xs-12 col-sm-3" id="logo">
                     <img src="https://media.licdn.com/media/p/3/005/06c/1a9/12a045e.jpg" alt="logo" class="img-responsive">
                 </div>
-                <div class ="col-xs-9 text-right text-uppercase" id="name">
+                <div class ="col-xs-12 col-sm-9 text-right text-uppercase" id="name">
                     <h1>Serene Liu</h1>
                     <h4>front-end ninja</h4>
                 </div>
@@ -32,61 +33,89 @@
             </div>
         </div>
         
-        <div class="row" id="big-photo">
-            <div class="col-md-12">
-                <img src="img/IMG_20161109_170156.jpg" alt="big photo" class="img-responsive">
-            </div>
-        </div>
-        
         <main class="row" id="projects">
             
+            <section class="col-md-12" id="big-photo">
+                <img src="img/IMG_20161109_170156.jpg" alt="big photo" class="img-responsive">
+            </section>
+            
             <section class="col-md-12">
-                <h2>Featured Projects</h2>
-            </section>
+                <header>
+                    <h1>Featured Projects</h1>
+                </header>
             
-            <section class="col-md-4">
-                <img src="img/mockup-to-article.png" alt="project 1" class="img-responsive">
-                <h3>Mockup to Article</h3>
-                <p>Recreated a website with HTML from a mockup.</p>
-                <p><a href="https://github.com/sereneliu/mockup-to-article" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/mockup-to-article/" target="_blank">See Project</a></p>
+                <article class="col-md-4">
+                    <img src="img/mockup-to-article.png" alt="project 1" class="img-responsive">
+                    <h3>Mockup to Article</h3>
+                    <p>Recreated a website with HTML from a mockup.</p>
+                    <p><a href="https://github.com/sereneliu/mockup-to-article" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/mockup-to-article/" target="_blank">See Project</a></p>
+                </article>
+                
+                <article class="col-md-4">
+                    <img src="img/animal-trading-cards.png" alt="project 2" class="img-responsive">
+                    <h3>Animal Trading Cards</h3>
+                    <p>Recreated a webpage with HTML and CSS from a design prototype.</p>
+                    <p><a href="https://github.com/sereneliu/animal-trading-cards" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/animal-trading-cards/card.html" target="_blank">See Project</a></p>
+                </article>
+                
+                <article class="col-md-4">
+                    <img src="img/resume.png" alt="project 3" class="img-responsive">
+                    <h3>Interactive Resume</h3>
+                    <p>Created an interactive resume using HTML, CSS, JavaScript and jQuery.</p>
+                    <p><a href="https://github.com/sereneliu/resume" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/resume/" target="_blank">See Project</a></p>
+                </article>
+                
+                <article class="col-md-4">
+                    <img src="img/pixel-art-maker.png" alt="project 4" class="img-responsive">
+                    <h3>Pixel Art Maker</h3>
+                    <p>Created a pixel art maker with jQuery.</p>
+                    <p><a href="https://github.com/sereneliu/pixel-art-maker" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/pixel-art-maker/" target="_blank">See Project</a></p>
+                </article>
+                
+                <article class="col-md-4">
+                    <img src="img/memory-game.png" alt="project 5" class="img-responsive">
+                    <h3>Memory Game</h3>
+                    <p>Recreated popular memory card using JavaScript object-oriented programming features.</p>
+                    <p><a href="https://github.com/sereneliu/memory-game" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/memory-game/" target="_blank">See Project</a></p>
+                </article>
+                
+                <article class="col-md-4">
+                    <img src="img/frogger-clone.png" alt="project 6" class="img-responsive">
+                    <h3>Frogger Clone</h3>
+                    <p>Recreated popular Frogger game using JavaScript object-oriented programming features.</p>
+                    <p><a href="https://github.com/sereneliu/frogger-clone" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/frogger-clone/" target="_blank">See Project</a></p>
+                </article>
             </section>
-            
-            <section class="col-md-4">
-                <img src="img/animal-trading-cards.png" alt="project 2" class="img-responsive">
-                <h3>Animal Trading Cards</h3>
-                <p>Recreated a webpage with HTML and CSS from a design prototype.</p>
-                <p><a href="https://github.com/sereneliu/animal-trading-cards" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/animal-trading-cards/card.html" target="_blank">See Project</a></p>
-            </section>
-            
-            <section class="col-md-4">
-                <img src="img/resume.png" alt="project 3" class="img-responsive">
-                <h3>Interactive Resume</h3>
-                <p>Created an interactive resume using HTML, CSS, JavaScript and jQuery.</p>
-                <p><a href="https://github.com/sereneliu/resume" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/resume/" target="_blank">See Project</a></p>
-            </section>
-            
-            <section class="col-md-4">
-                <img src="img/pixel-art-maker.png" alt="project 4" class="img-responsive">
-                <h3>Pixel Art Maker</h3>
-                <p>Created a pixel art maker with jQuery.</p>
-                <p><a href="https://github.com/sereneliu/pixel-art-maker" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/pixel-art-maker/" target="_blank">See Project</a></p>
-            </section>
-            
-            <section class="col-md-4">
-                <img src="img/memory-game.png" alt="project 5" class="img-responsive">
-                <h3>Memory Game</h3>
-                <p>Recreated popular memory card using JavaScript object-oriented programming features.</p>
-                <p><a href="https://github.com/sereneliu/memory-game" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/memory-game/" target="_blank">See Project</a></p>
-            </section>
-            
-            <section class="col-md-4">
-                <img src="img/frogger-clone.png" alt="project 6" class="img-responsive">
-                <h3>Frogger Clone</h3>
-                <p>Recreated popular Frogger game using JavaScript object-oriented programming features.</p>
-                <p><a href="https://github.com/sereneliu/frogger-clone" target="_blank">See Code</a> | <a href="https://sereneliu.github.io/frogger-clone/" target="_blank">See Project</a></p>
-            </section>
-            
         </main>
+            
+        <div class="row">
+            <footer>
+                
+                <section class="col-md-12">
+                    <hr>
+                </section>
+                
+                <section class="col-md-12">
+                    <header>
+                        <h4>Connect with Me</h4>
+                    </header>
+                </section>
+                
+                <section class="col-md-4 col-sm-4">
+                    <i class="fa fa-envelope fa-2x"></i> serene@sereneliu.com
+                </section>
+                
+                <section class="col-md-4 col-sm-4">
+                    <i class="fa fa-github fa-2x"></i> github.com/sereneliu
+                </section>
+                    
+                <section class="col-md-4 col-sm-4">
+                    <i class="fa fa-twitter fa-2x"></i> twitter.com/sereneliudotcom
+                </section>
+                
+            </footer>
+        </div>
+
     </div>
 </body>
 </html>
